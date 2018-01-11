@@ -174,5 +174,7 @@ Watcher.prototype = {
 - [Vue 源码注释版](https://github.com/Ma63d/vue-analysis)
 - [动手实现mvvm](https://github.com/DMQ/mvvm)
 
+- [更简化版本的mvvm](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
+
 
 
