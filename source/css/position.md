@@ -48,9 +48,8 @@
             height: 200px;
             bottom: 0;
             left: 0;
-            /*  相对于viewport高度的百分比，在滚动屏幕时仍随屏幕滚动* */
+            /*  相对于html定位时候， 高度是viewport高度的百分比，在滚动屏幕时仍随屏幕滚动* */
             /* top: 10%;   */
-            /* top: 70px; */
             background-color: yellow;
         }
         #test_fixed{
