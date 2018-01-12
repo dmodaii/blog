@@ -1,8 +1,5 @@
 
-# absolute
-绝对定位元素相对于最近的非 static 祖先元素定位。当这样的祖先元素不存在时，则相对于根级容器定位（document.documentElement(根元素/HTML元素)）
-
-- html,body的宽高和背景色
+# html,body的宽高和背景色
   - 宽高
   ```
   html,body{
@@ -12,7 +9,12 @@
   浏览器负责分配块级元素宽度，那么浏览器也一定可以分配高度(只是没有做)，那么浏览器本身是有宽度和高度的，设置html的height:100%，就可以获取浏览器的定高了，后面的body和div也就有了依赖。
 
   - 背景色
-  当html或body设置了背景色时候会被浏览器捕获，显示浏览器的背景色
+  当html或body设置了背景色时候会被浏览器捕获，显示浏览器的背景色（html设置了会覆盖body设置的）
+
+# absolute
+绝对定位元素相对于最近的非 static 祖先元素定位。当这样的祖先元素不存在时，则相对于根级容器定位（document.documentElement(根元素/HTML元素)）
+
+
 
 - 定位距离
  从content-border 开始， 所以父级定位元素的margin和border会影响top，left，必须指定 left ， right ， top ， bottom 属性中的至少一个
